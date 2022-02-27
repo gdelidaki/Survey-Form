@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    /* color: rgb(192, 200, 245); */
+    color: #fff;
+    background-image: linear-gradient(
+        250deg,
+        rgba(9, 31, 34, 0.8),
+        rgba(12, 87, 74, 1)
+      ),url("https://pixabay.com/get/gbe1d6135224a3192272105d147477cbaf29d5b4856d697f21ccd2eb6e315643fd244426205cd23ec5b463ac1475bddca3b78f8535b1e20a7eaa62afc02eeeed08b81d1c43ef3a04ccaeec6b3a1b874c0_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    width: 100vw;
+}
+
+.header {
+    text-align: center;
+    margin: 0.5rem auto;
+    width: 100%;
+}
+
+h1+p {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color:  #186480;
+    color: #fff;
+    border-radius: 0.5rem;
+    margin: 0 auto;
+    width: 80vw;
+    min-width: 400px;
+}
+
+input[type="number"], input[type="email"], input[type="text"], select {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+#grid-radio, #grid-checkbox {
+    margin: 0.5rem 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#checkbox-container, #radio-container, #suggestion-container {
+    margin: 0.5rem 0;
+}
+
+#suggestions {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+#submit {
+    color: #fff;
+    background-color: #FF5733;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 800px) {
+    form {
+    width: 50vw;
+    }
+}
