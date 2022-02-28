@@ -78,10 +78,13 @@ input[type="number"], input[type="email"], input[type="text"], select {
 
 #submit {
     color: #fff;
-    background-color: #FF5733;
+    /* background-color: #FF5733; */
     padding: 0.5rem;
     border-radius: 0.4rem;
     font-size: 1rem;
+    background: linear-gradient(145deg, #e64e2e, #ff5d37);
+    box-shadow:  5px 5px 0px #de4c2c,
+
 }
 
 @media screen and (min-width: 800px) {
