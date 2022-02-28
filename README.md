@@ -1,5 +1,5 @@
 # Survey-Form
-Personal Project built from a user story
+Personal Project built from a user story (built with HTML - CSS for practice)
 
 See it live:
 https://hungry-ritchie-84fd3b.netlify.app/
