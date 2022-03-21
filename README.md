@@ -6,7 +6,7 @@ https://hungry-ritchie-84fd3b.netlify.app/
 
 
 
---- USER STORY ---
+# Used the below user story as a guideline
 
 User Story #1: I can see a title with id="title" in H1 sized text.
 
