@@ -12,7 +12,7 @@ body {
         300deg,
         rgba(24, 100, 128, 0.9),
         rgba(12, 87, 74, 1)
-      ),url("unsplash.jpg");
+      );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
