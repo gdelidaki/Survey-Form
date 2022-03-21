@@ -4,6 +4,8 @@ Personal Project built from a user story (built with HTML - CSS for practice)
 See it live:
 https://hungry-ritchie-84fd3b.netlify.app/
 
+Includes:
+- Form data is retrieved and stored
 
 
 # Used the below user story as a guideline
