@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-
 <body>
-        <!-- <div class="header-container"> -->
-        <h1 id="title" class="header">Survey Form</h1>
-        <p id="description" class="header">Thank you for taking the time to help us improve the platform</p>
-        <!-- </div> -->
+    <main id="main">
+        <div id="header-container">
+            <h1 id="title" class="header">Survey Form</h1>
+            <p id="description" class="header">Thank you for helping us improve the platform</p>
+        </div>
         <form action="POST" id="survey-form" name="survey-form" netlify>
         
         <label for="name" id="name-label">Name</label>
@@ -72,11 +72,6 @@
         <button type="submit" id="submit">Submit</button>
 
     </form>
-
-
-
-    <!-- <script>
-        document.querySelector("#submit").addEventListener("click", (e) => e.preventDefault());
-    </script> -->
+</main>
 </body>
 </html>

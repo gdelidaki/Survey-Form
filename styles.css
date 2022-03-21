@@ -4,54 +4,57 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-shadow:
+    3px  3px 0 #000,
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    /* color: rgb(192, 200, 245); */
+    font-size: 1rem;
     color: #fff;
     background-image: linear-gradient(
-        250deg,
-        rgba(9, 31, 34, 0.8),
+        300deg,
+        rgba(24, 100, 128, 0.9),
         rgba(12, 87, 74, 1)
-      ),url("unsplash1.jpg");
+      ),url("unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
 
-/* .header-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem auto;
-    width: 100vw;
-} */
+#main {
+    padding: 0.1rem 1rem;
+    margin: 1rem 10px;
+}
 
 .header {
     text-align: center;
     margin: 0.5rem 0;
-    /* width: 100%; */
+    max-width: 100%;
 }
 
-h1+p {
-    font-weight: bold;
+#header-container {
+    margin-bottom: 1.5rem;
 }
 
-form {
+#survey-form {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     padding: 1rem;
-    background-color:  #186480;
+    background-color:  #114a5f;
     color: #fff;
     border-radius: 0.5rem;
     margin: 0 auto 1.5rem;
-    width: 80vw;
-    min-width: 400px;
-}
+    max-width: 400px;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;}
 
 input[type="number"], input[type="email"], input[type="text"], select {
     padding: 0.5rem;
@@ -61,7 +64,9 @@ input[type="number"], input[type="email"], input[type="text"], select {
 
 #grid-radio, #grid-checkbox {
     margin: 0.5rem 0;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: auto 1fr;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 0.5rem;
@@ -74,17 +79,16 @@ input[type="number"], input[type="email"], input[type="text"], select {
 #suggestions {
     margin-bottom: 0.5rem;
     padding: 0.5rem;
+    resize: none;
 }
 
 #submit {
     color: #fff;
-    /* background-color: #FF5733; */
     padding: 0.5rem;
     border-radius: 0.4rem;
     font-size: 1rem;
     background: linear-gradient(145deg, #e64e2e, #ff5d37);
-    box-shadow:  5px 5px 0px #de4c2c,
-
+    box-shadow:  1px 1px 0px #de4c2c;
 }
 
 @media screen and (min-width: 800px) {
