@@ -14,64 +14,68 @@
             <h1 id="title" class="header">Survey Form</h1>
             <p id="description" class="header">Thank you for helping us improve the platform</p>
         </div>
+
         <form action="POST" id="survey-form" name="survey-form" netlify>
-        
-        <label for="name" id="name-label">Name</label>
-        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
 
-        <label for="email" id="email-label">Email</label>
-        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" required>
 
-        <label for="number" id="number-label">Age (optional)</label>
-        <input type="number" name="number" id="number" min="1" max="150" placeholder="Age">
+            <label for="number" id="number-label">Age (optional)</label>
+            <input type="number" name="number" id="number" min="1" max="150" placeholder="Age">
 
-        <label for="dropdown">Type of job you're looking for?</label>
-        <select name="dropdown" id="dropdown" required>
-            <option value="">Select Job Type</option>
-            <option value="fulltime">Full-time</option>
-            <option value="parttime">Part-time</option>
-            <option value="temp">Temporary</option>
-            <option value="contract">Contract</option>
-            <option value="internship">Internship</option>
-        </select>
-        <hr>
-        <div id="radio-container">
-            <p>Would you recommend our site?</p>
-            <div id="grid-radio">
-            <input type="radio" name="recommend" id="deffo" value="maybe">
-            <label for="deffo">Definitely</label>
+            <label for="dropdown">Type of job you're looking for?</label>
+            <select name="dropdown" id="dropdown" required>
+                <option value="">Select Job Type</option>
+                <option value="fulltime">Full-time</option>
+                <option value="parttime">Part-time</option>
+                <option value="temp">Temporary</option>
+                <option value="contract">Contract</option>
+                <option value="internship">Internship</option>
+            </select>
+            <hr>
 
-            <input type="radio" name="recommend" id="maybe" value="maybe">
-            <label for="maybe">Maybe</label>
+            <div id="radio-container">
+                <p>Would you recommend our site?</p>
+                <div id="grid-radio">
+                    <input type="radio" name="recommend" id="deffo" value="maybe">
+                    <label for="deffo">Definitely</label>
 
-            <input type="radio" name="recommend" id="notsure" value="maybe">
-            <label for="notsure">Not Sure</label>
+                    <input type="radio" name="recommend" id="maybe" value="maybe">
+                    <label for="maybe">Maybe</label>
+
+                    <input type="radio" name="recommend" id="notsure" value="maybe">
+                    <label for="notsure">Not Sure</label>
+                </div>
             </div>
-        </div>
-        <hr>
-        <div id="checkbox-container">
-        <p>What would you like to see improved? <small> (Check all that apply)</small> </p>
-        <div id="grid-checkbox">
-        <input type="checkbox" id="check1" name="check1" value="frontend">
-        <label for="check1"> Front-end Projects</label>
+            <hr>
 
-        <input type="checkbox" id="check2" name="check2" value="backend">
-        <label for="check2"> Back-end Projects</label>
+            <div id="checkbox-container">
+                <p>What would you like to see improved? <small> (Check all that apply)</small> </p>
+                <div id="grid-checkbox">
+                    <input type="checkbox" id="check1" name="check1" value="frontend">
+                    <label for="check1"> Front-end Projects</label>
 
-        <input type="checkbox" id="check3" name="check3" value="challenges">
-        <label for="check3"> Challenges</label>
-        </div>
-        </div>
-        <hr>
+                    <input type="checkbox" id="check2" name="check2" value="backend">
+                    <label for="check2"> Back-end Projects</label>
 
-        <div id="suggestion-container">
-        <p>Any comments or suggestions?</p>
-    </div>
-        <textarea name="suggestions" id="suggestions" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>
+                    <input type="checkbox" id="check3" name="check3" value="challenges">
+                    <label for="check3"> Challenges</label>
+                </div>
+            </div>
+            <hr>
+
+            <div id="suggestion-container">
+                <p>Any comments or suggestions?</p>
+            </div>
+            <textarea name="suggestions" id="suggestions" cols="50" rows="5" placeholder="Enter your comment here..."></textarea>
  
-        <button type="submit" id="submit">Submit</button>
+            <button type="submit" id="submit">Submit</button>
 
-    </form>
-</main>
+        </form>
+    </main>
+
 </body>
+
 </html>

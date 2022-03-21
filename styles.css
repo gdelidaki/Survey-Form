@@ -19,13 +19,6 @@ body {
     background-attachment: fixed;
 }
 
-/* h1 {
-    text-shadow: -1px 1px 0 #000,
-    1px 1px 0 #000,
-   1px -1px 0 #000,
-  -1px -1px 0 #000;
-} */
-
 #main {
     padding: 0.1rem 1rem;
     margin: 1rem 10px;
@@ -33,7 +26,7 @@ body {
 
 .header {
     text-align: center;
-    margin: 0.5rem 0;
+    margin: 0.5rem auto;
     max-width: 100%;
 }
 
@@ -88,10 +81,4 @@ input[type="number"], input[type="email"], input[type="text"], select {
     font-size: 1rem;
     background: linear-gradient(145deg, #e64e2e, #ff5d37);
     box-shadow:  1px 1px 0px #de4c2c;
-}
-
-@media screen and (min-width: 800px) {
-    form {
-    width: 50vw;
-    }
 }
